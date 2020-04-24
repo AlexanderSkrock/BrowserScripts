@@ -4,8 +4,8 @@
 // @version      0.2
 // @description  Hide unimportant stuff in Twitch Popout-Chat
 // @author       Adagatiya
-// @downloadUrl  https://gist.githubusercontent.com/AlexanderSkrock/91431c1ddb5d0ed9461c3b58df7479d1/raw/c6c97f977aaf0cbb3e4c09c33188bbe646d63e58/twitchPopoutChatOptimizer.js
-// @updateUrl    https://gist.githubusercontent.com/AlexanderSkrock/91431c1ddb5d0ed9461c3b58df7479d1/raw/c6c97f977aaf0cbb3e4c09c33188bbe646d63e58/twitchPopoutChatOptimizer.js
+// @downloadUrl  https://raw.githubusercontent.com/AlexanderSkrock/BrowserScripts/master/twitchPopoutChatOptimizer.js
+// @updateUrl    https://raw.githubusercontent.com/AlexanderSkrock/BrowserScripts/master/twitchPopoutChatOptimizer.js
 // @match        https://www.twitch.tv/popout/*/chat?popout=
 // @grant        none
 // ==/UserScript==
