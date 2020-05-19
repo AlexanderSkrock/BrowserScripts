@@ -1,12 +1,13 @@
 // ==UserScript==
 // @name         Twitch Popout-Chat Optimizer
 // @namespace    http://github.com/AlexanderSkrock
-// @version      0.2
+// @version      0.3
 // @description  Hide unimportant stuff in Twitch Popout-Chat
 // @author       Adagatiya
 // @downloadUrl  https://raw.githubusercontent.com/AlexanderSkrock/BrowserScripts/master/twitchPopoutChatOptimizer.user.js
 // @updateUrl    https://raw.githubusercontent.com/AlexanderSkrock/BrowserScripts/master/twitchPopoutChatOptimizer.user.js
 // @match        https://www.twitch.tv/popout/*/chat?popout=
+// @match        https://www.twitch.tv/popout/moderator/*/chat
 // @grant        none
 // ==/UserScript==
 
