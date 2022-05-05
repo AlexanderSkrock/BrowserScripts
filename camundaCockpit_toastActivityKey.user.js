@@ -4,6 +4,8 @@
 // @version      0.1
 // @description  Anzeige der Key zu einer Activity im Camunda Cockpit
 // @author       Alexander Skrock
+// @updateURL    https://raw.githubusercontent.com/AlexanderSkrock/BrowserScripts/master/camundaCockpit_toastActivityKey.user.js
+// @downloadURL  https://raw.githubusercontent.com/AlexanderSkrock/BrowserScripts/master/camundaCockpit_toastActivityKey.user.js
 // @match        *://*/app/cockpit/*
 // @require     https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js
 // @require     https://cdn.jsdelivr.net/npm/toastify-js
