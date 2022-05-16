@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Camunda Cockpit Activity Key Toaster
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.2
 // @description  Anzeige der Key zu einer Activity im Camunda Cockpit
 // @author       Alexander Skrock
 // @updateURL    https://raw.githubusercontent.com/AlexanderSkrock/BrowserScripts/master/camundaCockpit_toastActivityKey.user.js
@@ -41,6 +41,8 @@ function info(message) {
     const getElementId = element => element && element.dataset && element.dataset["elementId"];
     $(document).click(evt => {
         const idElement = evt.target.closest(".djs-element");
-        info(getElementId(idElement));
+        if (idElement) {
+            info(getElementId(idElement));
+        }
     });
 })();
